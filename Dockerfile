@@ -1,15 +1,15 @@
 FROM       node:alpine 
 
-MAINTAINER https://github.com/anders94/blockchain-demo
+MAINTAINER https://github.com/ranyacharef/blockchain-project
 
 EXPOSE     3000
 
-WORKDIR    /blockchain-demo 
+WORKDIR    /blockchain-project 
 
-COPY       package.json /blockchain-demo
+COPY       package.json /blockchain-project
 
 RUN        npm install
 
-COPY       . /blockchain-demo 
+COPY       . /blockchain-project 
 
 CMD        ["node", "bin/www"]

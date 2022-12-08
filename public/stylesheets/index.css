@@ -1,0 +1,12 @@
+.container {
+    padding: 60px 35px 0;
+}
+
+.h1{
+    text-align: center !important;
+    color: brown;
+}
+.p{
+    text-align: center !important;
+    color: crimson;
+}
