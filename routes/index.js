@@ -3,7 +3,7 @@ var router = express.Router();
 var async = require('async');
 
 router.get('/', function(req, res, next) {
-  res.render('index');
+  res.render('blockchain');
 });
 
 router.get('/:page', function(req, res, next) {
