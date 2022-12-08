@@ -1,0 +1,41 @@
+{
+  "name": "blockchain-project",
+  "description": "A web-based project of blockchain concepts.",
+  "author": {
+    "name": "Rania Charef"
+  },
+  "version": "0.0.1",
+  "keywords": [
+    "blockchain",
+    "project",
+    "bitcoin"
+  ],
+  "scripts": {
+    "start": "Navigate to http://localhost:3000/ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyacharef/blockchain-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ranyacharef/blockchain-project/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "i18n": "^0.14.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "homepage": "https://github.com/ranyacharef/blockchain-project#readme",
+  "maintainers": [
+    {
+      "name": "Rania",
+      "email": "rania_charef@hotmail.fr"
+    }
+  ]
+}
