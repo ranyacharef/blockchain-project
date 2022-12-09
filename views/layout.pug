@@ -34,7 +34,7 @@ html
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='/')(style="color:#F0E9D2") #{__('Blockchain Project - Big Data')}
+          a.navbar-brand(href='/index')(style="color:#F0E9D2") #{__('Blockchain Project - Team Presentation')}
         #navbar.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li(class={active: page === 'hash'})
@@ -45,9 +45,9 @@ html
               a(href='/blockchain')(style="color:#F0E9D2") #{__('Blockchain')}
             li(class={active: page === 'distributed'})
               a(href='/distributed')(style="color:#F0E9D2") #{__('Distributed')}
-            //- li(class={active: page === 'tokens'})
-            //-   a(href='/tokens') #{__('Tokens')}
-            //- li(class={active: page === 'coinbase'})
-            //-   a(href='/coinbase') #{__('Coinbase')}
+            li(class={active: page === 'tokens'})
+              a(href='/tokens')(style="color:#F0E9D2") #{__('Tokens')}
+            li(class={active: page === 'coinbase'})
+              a(href='/coinbase')(style="color:#F0E9D2") #{__('Coinbase')}
 
     block content
